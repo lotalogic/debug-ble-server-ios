@@ -1,0 +1,21 @@
+[package]
+name = "gatt_remotectl_server"
+version = "0.1.0"
+edition = "2021"
+description = "Ble Gatt server associated with the lota-remote app"
+readme = "README.md"
+keywords = ["bluetooth", "gatt", "l2cap", "rfcomm", "mesh"]
+license = "BSD-2-Clause"
+rust-version = "1.75"
+
+[[bin]]
+name = "gatt_remotectl_server"
+path = "src/gatt_remotectl_server.rs"
+
+[dependencies]
+regex = "1.5"
+futures = "0.3"
+tokio = { version = "1.0", features = ["full"] }
+uuid = "1"
+env_logger = "0.11"
+bluer = { version = "0.17.0", features = ["full"] }

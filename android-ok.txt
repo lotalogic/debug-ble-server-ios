@@ -1,0 +1,202 @@
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:new_settings_callback() Settings: 0x00000acb
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:settings_changed() Changed settings: 0x00000008
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:settings_changed() Pending settings: 0x00000000
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:dev_class_changed_callback() Class: 0x200104
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:dev_class_changed_callback() Class: 0x600104
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:dev_class_changed_callback() Class: 0x640104
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:dev_class_changed_callback() Class: 0x6c0104
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:local_name_changed_callback() Name: bifrost-Z490-VISION-D
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:local_name_changed_callback() Short name:
+mars 15 20:05:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:local_name_changed_callback() Current alias: bifrost-Z490-VISION-D
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:set_discoverable() sending set mode command for index 0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:set_mode() sending set mode command for index 0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:property_set_mode() sending Set Bondable command for index 0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:property_set_mode_complete() Success (0x00)
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:new_settings_callback() Settings: 0x00000adb
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:settings_changed() Changed settings: 0x00000010
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:settings_changed() Pending settings: 0x00000002
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/agent.c:add_default_agent() Default agent set to :1.382 /com/punchthrough/agent
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/agent.c:agent_ref() 0x62f6bff2e980: ref=1
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/agent.c:register_agent() agent :1.382
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/advertising.c:register_advertisement() RegisterAdvertisement
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/advertising.c:client_create() Adding proxy for /org/bluez/example/advertisement0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/advertising.c:register_advertisement() Registered advertisement at path /org/bluez/example/advertisement0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:manager_register_app() Registering application: :1.382:/
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:proxy_added_cb() Object received: /org/bluez/example/service2, iface: org.bluez.GattService1
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:proxy_added_cb() Object received: /org/bluez/example/service2/char0, iface: org.bluez.GattCharacteristic1
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:proxy_added_cb() Object received: /org/bluez/example/service2/char0/desc1, iface: org.bluez.GattDescriptor1
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:database_add_service() handle 0x0015 UUID 00000000-0000-0000-0000-0000feedc0de
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:database_add_chrc() handle 0x0017 UUID 00000000-0000-0000-000f-00dc0de00001
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:database_add_desc() handle 0x0018 UUID 00002901-0000-1000-8000-00805f9b34fb
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x1000a
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000000-0000-0000-0000-0000fee
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:add_uuid() sending add uuid command for index 0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:client_ready_cb() GATT application registered: :1.382:/
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/advertising.c:parse_service_uuids() Adding ServiceUUID: 00000000-0000-0000-0000-0000feedc0de
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/advertising.c:parse_manufacturer_data() Adding ManufacturerData for ffff
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/advertising.c:refresh_extended_adv() Refreshing advertisement parameters: /org/bluez/example/advertisement0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/advertising.c:add_adv_params_callback() Refreshing advertisement data: /org/bluez/example/advertisement0
+mars 15 20:05:24 bifrost-Z490-VISION-D bluetoothd[33210]: src/advertising.c:add_adv_callback() Advertisement registered: /org/bluez/example/advertisement0
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:connected_callback() hci0 device 60:26:B0:4A:A5:88 connected eir_len 0
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_create() dst 60:26:B0:4A:A5:88
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_new() address 60:26:B0:4A:A5:88
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_new() Creating device /org/bluez/hci0/dev_60_26_B0_4A_A5_88
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:connect_cb() New incoming LE ATT connection
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: attrib/gattrib.c:g_attrib_ref() 0x62f6bff3c660: g_attrib_ref=1
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:load_gatt_db() Restoring 60:26:B0:4A:A5:88 gatt database from file
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:load_gatt_db() Unable to load key file from /var/lib/bluetooth/40:EC:99:0E:C4:7C/cache/60:26:B0:4A:A5:88: (No such file or directory)
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:load_gatt_db() No cache for 60:26:B0:4A:A5:88
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:btd_gatt_client_connected() Device connected.
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:connect_cb() New incoming LE ATT connection
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Channel 0x62f6bff4dc00 attached
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_attach_att() EATT channel connected
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:connect_cb() New incoming LE ATT connection
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Channel 0x62f6bff4d7d0 attached
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_attach_att() EATT channel connected
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:connect_cb() New incoming LE ATT connection
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_attach_att() EATT channel limit reached
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:connect_cb() New incoming LE ATT connection
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_attach_att() EATT channel limit reached
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:connect_cb() New incoming LE ATT connection
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_attach_att() EATT channel limit reached
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() MTU exchange complete, with MTU: 517
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x10
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Grp Type - start: 0x0001 end: 0xffff
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x10
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Grp Type - start: 0x0015 end: 0xffff
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Primary services found: 2
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0001, end: 0x0009, uuid: 00001801-0000-1000-8000-00805f9b34fb
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0014, end: 0xffff, uuid: 00001800-0000-1000-8000-00805f9b34fb
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Server Features found: handle 0x0005 length 0x0001 value 0x01
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x10
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Grp Type - start: 0x0019 end: 0xffff
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0001 end: 0x0007
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0001 end: 0x0007
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0007 end: 0x0007
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Characteristics found: 7
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0002, end: 0x0003, value: 0x0003, props: 0x20, uuid: 00002a05-0000-1
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0004, end: 0x0005, value: 0x0005, props: 0x02, uuid: 00002b3a-0000-1
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0006, end: 0x0007, value: 0x0007, props: 0x0a, uuid: 00002b29-0000-1
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0008, end: 0x0014, value: 0x0009, props: 0x02, uuid: 00002b2a-0000-1
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0015, end: 0x0016, value: 0x0016, props: 0x02, uuid: 00002a00-0000-1
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0017, end: 0x0018, value: 0x0018, props: 0x02, uuid: 00002a01-0000-1
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() start: 0x0019, end: 0xffff, value: 0x001a, props: 0x02, uuid: 00002aa6-0000-1
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0008 end: 0x0011
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:46 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0008 end: 0x0011
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0011 end: 0x0011
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x04
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Find Info - start: 0x000b end: 0x000b
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() DB Hash found: handle 0x0009 length 0x0010
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() DB Hash value:
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug()   89 91 c4 62 eb e9 d9 0b 9e a0 da 3e 16 d0 f5 13  ...b.......>....
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Value set status: 0
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Server Features Value set status: 0
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Writing Client Features 0x07
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Registered handler for "Service Changed": 0
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_client_ready_cb() status: success, error: 0
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_probe_profiles() Probing profiles for device 60:26:B0:4A:A5:88
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_probe_profiles() Probing profiles for device 60:26:B0:4A:A5:88
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: profiles/gap/gas.c:gap_probe() GAP profile probe (60:26:B0:4A:A5:88)
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/service.c:change_state() 0x62f6bff56d00: device 60:26:B0:4A:A5:88 profile gap-profile state changed: unavailable -> disconnected (0)
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: profiles/gap/gas.c:gap_accept() GAP profile accept (60:26:B0:4A:A5:88)
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: profiles/gap/gas.c:handle_characteristic() Unsupported characteristic: 00002aa6-0000-1000-8000-00805f9b34fb
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/service.c:change_state() 0x62f6bff56d00: device 60:26:B0:4A:A5:88 profile gap-profile state changed: disconnected -> connected (0)
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:btd_gatt_client_ready() GATT client ready
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:create_services() Exporting objects for GATT services: 60:26:B0:4A:A5:88
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:service_create() Exported GATT service: /org/bluez/hci0/dev_60_26_B0_4A_A5_88/service0001
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_60_26_B0_4A_A5_88/service0001/char0002
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_60_26_B0_4A_A5_88/service0001/char0004
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_60_26_B0_4A_A5_88/service0001/char0006
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_60_26_B0_4A_A5_88/service0001/char0008
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:btd_gatt_client_ready() Features 0x00
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:btd_gatt_client_ready() Update Features 0x07
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_svc_resolved() /org/bluez/hci0/dev_60_26_B0_4A_A5_88 err 0
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:store_gatt_db() Can't store GATT db for private addressed device /org/bluez/hci0/dev_60_26_B0_4A_A5_88
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0012 end: 0x0014
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: profiles/gap/gas.c:read_device_name_cb() GAP Device Name: Pixel 3
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:btd_device_device_set_name() /org/bluez/hci0/dev_60_26_B0_4A_A5_88 Pixel 3
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: profiles/gap/gas.c:read_appearance_cb() GAP Appearance: 0x0000
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0012 end: 0x0014
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0014 end: 0x0014
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0015 end: 0x0018
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0015 end: 0x0018
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x08
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read By Type - start: 0x0017 end: 0x0018
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x04
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Find Info - start: 0x0018 end: 0x0018
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x0a
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read Req - handle: 0x000b
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:gatt_ccc_read_cb() CCC read called for handle: 0x000b
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read Complete: err 0
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x0a
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read Req - handle: 0x0018
+mars 15 20:05:47 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Read Complete: err 0
+mars 15 20:05:53 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:05:53 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:05:53 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:05:57 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:05:57 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:05:57 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:05:58 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:05:58 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:05:58 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:00 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:06:00 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:06:00 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:01 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:06:01 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:06:01 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:02 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:06:02 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:06:02 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:03 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:06:03 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:06:03 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:04 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:06:04 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:06:04 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:05 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:06:05 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:06:05 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:06 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:06:06 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:06:06 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() (chan 0x62f6bff564f0) ATT PDU received: 0x12
+mars 15 20:06:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Req - handle: 0x0017
+mars 15 20:06:07 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Write Complete: err 0
+mars 15 20:06:14 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Channel 0x62f6bff4dc00 disconnected: Connection reset by peer
+mars 15 20:06:14 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Channel 0x62f6bff4d7d0 disconnected: Connection reset by peer
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:dev_disconnected() Device 60:26:B0:4A:A5:88 disconnected, reason 3
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:adapter_remove_connection()
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: plugins/policy.c:disconnect_cb() reason 3
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:bonding_attempt_complete() hci0 bdaddr 60:26:B0:4A:A5:88 type 2 status 0xe
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_bonding_complete() bonding (nil) status 0x0e
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:device_bonding_failed() status 14
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/adapter.c:resume_discovery()
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:gatt_debug() Channel 0x62f6bff564f0 disconnected: Connection reset by peer
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:att_disconnected_cb()
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:att_disconnected_cb() Connection reset by peer (104)
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/service.c:change_state() 0x62f6bff56d00: device 60:26:B0:4A:A5:88 profile gap-profile state changed: connected -> disconnecting (0)
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/service.c:change_state() 0x62f6bff56d00: device 60:26:B0:4A:A5:88 profile gap-profile state changed: disconnecting -> disconnected (0)
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-client.c:btd_gatt_client_disconnected() Device disconnected. Cleaning up.
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/device.c:att_disconnected_cb() Automatic connection disabled
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:btd_gatt_database_att_disconnected()
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: src/gatt-database.c:att_disconnected()
+mars 15 20:06:15 bifrost-Z490-VISION-D bluetoothd[33210]: attrib/gattrib.c:g_attrib_unref() 0x62f6bff3c660: g_attrib_unref=0
